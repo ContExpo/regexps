@@ -1,0 +1,2 @@
+#Selects all attributes and their values from HTML tags
+(\S+)=["']?((?:.(?!["']?\s+(?:\S+)=|[>"']))+.)["']?
